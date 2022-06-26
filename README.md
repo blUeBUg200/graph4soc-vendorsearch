@@ -7,7 +7,7 @@ An analyst working in SOC operations, monitoring multiple customers from decentr
 
 Setup:
 - Install neo4j browser or desktop version.
-  I spinned up a docker instance of neo4j browser with host directory volumes. Sample docker compose file
+  I spinned up a docker instance of neo4j browser with host directory volumes(for data persistence). Docker compose file will look like below
   
 ````
 version: '3.8'
@@ -32,6 +32,8 @@ Web UI Login to neo4j console on port 7474 with username=neo4j ; password=Snippe
 
 
 ![data](https://user-images.githubusercontent.com/86832373/175833192-207253b3-401e-42f8-b695-549588b190c6.PNG)
+
+Place this CSV file under "import" folder. In our case it will be "/home/testuser/neo4j/import"
 
 - Build relationship between the nodes "Customer" and "Technology"
 
