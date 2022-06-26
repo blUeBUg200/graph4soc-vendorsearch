@@ -1,10 +1,9 @@
 # Graph4SOC Vendor Search
 
-Are you a MSS SOC analyst looking for a way to understand your customer environment ?  
-This usecase is build exclusively for you.
+Are you a SOC analyst looking for a way to understand your customer environment ? This usecase is build exclusively for you.
 
-Usecase:
-An analyst trying to understand the group of customer names having technology X
+**Usecase:**
+An analyst working in a decentralized SOC monitoring (managing multiple customers from non-unifed console) trying to understand the group of customer names having technology X
 
 Setup:
 - Install neo4j browser or desktop version.
