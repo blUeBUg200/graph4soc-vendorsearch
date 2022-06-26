@@ -26,6 +26,8 @@ services:
     environment:
       - NEO4J_AUTH=neo4j/neo4j@Snipper58
 ````
+Web UI Login to neo4j console on port 7474 with username:neo4j ; password=Snipper58
+
 - Build your technology vendor data, customer matrix as CSV. Pretty much you can retrive this data from any SIEM. My test data looks like below,
 
 
