@@ -5,7 +5,7 @@ Are you a SOC analyst looking for a way to understand your customer environment 
 **Usecase:**
 An analyst working in SOC operations, monitoring multiple customers from decentralized console trying to understand the group of customer names having technology X
 
-Setup:
+**Setup:**
 - Install neo4j browser or desktop version.
   I spinned up a docker instance of neo4j browser with host directory volumes(for data persistence). Docker compose file will look like below
   
