@@ -1,4 +1,4 @@
-# graphdatabase-vendorsearch
+# Graph4SOC Vendor Search
 
 Are you a MSS SOC analyst looking for a way to understand your customer environment ?  
 This usecase is build exclusively for you.
