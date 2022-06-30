@@ -24,7 +24,7 @@ services:
       - /home/testuser/neo4j/import:/var/lib/neo4j/import
       - /home/testuser/neo4j/plugins:/plugins
     environment:
-      - NEO4J_AUTH=neo4j/neo4j@Snipper58
+      - NEO4J_AUTH=neo4j/Snipper58
 ````
 Web UI Login to neo4j console on port 7474 with username=neo4j ; password=Snipper58
 
