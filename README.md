@@ -53,7 +53,9 @@ MERGE (m) -[:CONTAINS]-> (n)
 - Query the graph as required. In our case we have queried the DB to identify the list of customers having Juniper device.
 
 ````
-MATCH (Customer)-[:CONTAINS]->(tech:Technology {Name:'Juniper'}) 
-RETURN Customer, tech
+// Query graph DB to match partial match criteria "juniper" anywhere in the text and return values
+MATCH (c:Customer)-[:CONTAINS]->(t:Technology) 
+WHERE t.Name =~ '(?i).*juniper.*'
+RETURN c,t
 ````
 ![Juniper Customers - 2](https://user-images.githubusercontent.com/86832373/175832778-aebb90e2-9826-425f-8dad-e0950ea1d7ae.PNG)
