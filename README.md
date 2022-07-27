@@ -59,3 +59,5 @@ WHERE t.Name =~ '(?i).*juniper.*'
 RETURN c,t
 ````
 ![Juniper Customers - 2](https://user-images.githubusercontent.com/86832373/175832778-aebb90e2-9826-425f-8dad-e0950ea1d7ae.PNG)
+
+Graph4SOC - Vendor Search © 2022 by Kaviarasan Asokan is licensed under Attribution 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
